@@ -1,0 +1,135 @@
+body{
+    background-color:rgba(246,240,255,255);
+   
+  }
+  span{
+    color: black;
+  }
+  .card{
+    padding: 5px;
+  }
+  .bout {
+    background: linear-gradient(to right, rgb(101, 50, 118), rgb(105, 31, 74),rgb(111, 13, 29));
+    width:200px;
+    color:white;
+    border: 1px solid black 
+  }
+.I-am{
+  background: linear-gradient(to right, rgb(101, 50, 118), rgb(105, 31, 74),rgb(111, 13, 29));
+  margin-top: 40px;
+  color: white;
+}
+.clearfix{
+    text-align: justify;
+    margin-top: 70px;
+   
+}
+.img1{
+    width: 400px;
+    height: 400px;
+}
+.d1{
+  transition: transform 10s ease;
+    }
+.d1:hover{
+      transform: translateX(50px);
+    }
+
+.d3{
+  max-width: 10rem;
+  min-width: 8rem;
+      transition: transform 10s ease;
+        }
+.d3:hover{
+          transform: translateY(-50px);
+        }
+ul{
+    list-style-type: none;
+}
+.a2{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 6px;
+}
+
+.ulap{list-style-type: circle;}
+
+.img2{
+    width: 350px;
+    height: 300px;
+}
+.d2{
+  transition: transform 1s ease;
+    }
+.d2:hover{
+      transform: translateY(-10px);
+    }
+a{
+text-decoration: none;
+}
+a:hover{
+    color: black;
+}
+footer{
+  color: white;
+    margin-top: 150px;
+    background: linear-gradient(to right, rgb(101, 50, 118), rgb(105, 31, 74),rgb(111, 13, 29));
+}
+.ser{
+  display:flex;
+  justify-content:center;
+  width:100%;
+  margin:auto;
+  color:#624097
+}
+.rea{
+  min-width: 20rem;
+  max-width:22rem
+}
+.car{
+  color:white;
+  padding:20px;
+  background:linear-gradient(to right, rgb(101, 50, 118), rgb(105, 31, 74),rgb(111, 13, 29))
+}
+.bod{
+  padding-top:100px;
+  height:300px;
+  font-size:20px
+}
+/*Css du parcours académique*/
+
+.bg-image{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  /*Css du parcours académique*/
+  .L1{
+    text-align: justify;
+  }
+  .containerl{
+    margin-top: 100px;
+  }
+  
+  .couleur{
+    color: #624097;
+    text-align: center;
+    font-size: 40px;
+  }
+  /*Css de Contact*/
+  table{
+    
+    justify-content: center;
+  }
+  .c1{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 500px;
+  }
+  .shadow-effect{
+    transition: box-shadow 0.3s ease;
+   
+     }
+     .shadow-effect:hover{
+       box-shadow: -6px 6px 6px 6px rgba(168, 37, 37, 0.3);;
+     }
